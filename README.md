@@ -81,16 +81,37 @@ and <b>Full-Stack Engineering</b>.
 
 </div>
 
-## 🧠 About Me
+## ABOUT ME
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
 
-```yaml
-name: M A Sharukh Sameer
-role: AI/ML Engineer in training • Full-Stack + Web3 Builder
-degree: B.Tech Artificial Intelligence & Data Science (2024 - 2028)
-university: KGiSL Institute of Technology, Anna University
-based_in: Coimbatore, Tamil Nadu, India
-languages_spoken: [English, Tamil]
-```
+<tr>
+
+<td width="65%" valign="top">
+
+<pre><code><b>👤 Name </b>         : M A Sharukh Sameer
+<b>💼 Role</b>         : AI/ML Engineer in Training • Full-Stack + Web3 Builder
+<b>🎓 Degree</b>       : B.Tech Artificial Intelligence & Data Science (2024–2028)
+<b>🏫 University</b>   : KGiSL Institute of Technology, Anna University
+<b>📍 Location</b>     : Coimbatore, Tamil Nadu, India
+<b>🚀 Startup</b>      : Founder & CEO • MindZen AI
+
+<b>💼 Experience</b>
+   • AI/ML Intern — Initz Technology
+   • Full Stack Developer Intern — SSM Drilling Academy
+
+</code></pre>
+
+</td>
+
+<td width="35%" align="center" valign="top">
+
+<img src="languages.png" width="260" alt="Languages">
+
+</td>
+
+</tr>
+
+</table>
 
 I'm an **AI & Data Science undergraduate** who ships real, working products instead of just tutorials — from an AI-driven stock analysis platform to a Web3-based learning/manpower portal. I care about the full pipeline: data → model → clean UI → deployed product, with a strong product-engineering mindset rather than just "notebook code."
 
@@ -107,34 +128,51 @@ Currently sharpening my edge across **machine learning, applied AI automation, b
 
 ---
 
-## 🛠️ Tech Stack
+## TECH STACK
 
-<div align="center">
+<p align="center">
 
-**Languages**
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 
-![Python](https://skillicons.dev/icons?i=python) ![Solidity](https://skillicons.dev/icons?i=solidity) ![JS](https://skillicons.dev/icons?i=js) ![HTML](https://skillicons.dev/icons?i=html) ![CSS](https://skillicons.dev/icons?i=css)
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
 
-**AI / ML**
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 
-![PyTorch](https://skillicons.dev/icons?i=pytorch) ![TensorFlow](https://skillicons.dev/icons?i=tensorflow) ![OpenCV](https://skillicons.dev/icons?i=opencv)
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
 
-**Frontend**
+<img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black"/>
 
-![React](https://skillicons.dev/icons?i=react) ![Tailwind](https://skillicons.dev/icons?i=tailwind) ![Figma](https://skillicons.dev/icons?i=figma)
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
 
-**Backend & Databases**
+<img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+<img src="https://img.shields.io/badge/Codex-412991?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google_Vids-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
 
-![Node](https://skillicons.dev/icons?i=nodejs) ![MySQL](https://skillicons.dev/icons?i=mysql) ![MongoDB](https://skillicons.dev/icons?i=mongodb)
-
-**Cloud, DevOps & Tooling**
-
-![Git](https://skillicons.dev/icons?i=git) ![GitHub](https://skillicons.dev/icons?i=github) ![VSCode](https://skillicons.dev/icons?i=vscode) ![Postman](https://skillicons.dev/icons?i=postman) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-
-</div>
-
-<br/>
-
+</p>
 ---
 
 ## 🤖 AI / ML Expertise
@@ -327,47 +365,6 @@ Built an AI-based solution in a team environment under hackathon constraints, de
 
 ---
 
-## 📜 Certifications
-
-> _Add your certification badges below as you complete them — grouped by provider for a clean, verifiable trail._
-
-**AWS**
-<br/>
-`Add AWS certification badges here`
-
-**Oracle**
-<br/>
-`Add Oracle certification badges here`
-
-**NPTEL**
-<br/>
-`Add NPTEL certification badges here`
-
-**Cisco**
-<br/>
-`Add Cisco certification badges here`
-
-<br/>
-
----
-
-## 💻 Coding Profiles
-
-<div align="center">
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=0F0524)](#)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Profile-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white&labelColor=0F0524)](#)
-[![HackerRank](https://img.shields.io/badge/HackerRank-Profile-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=0F0524)](#)
-[![CodeChef](https://img.shields.io/badge/CodeChef-Profile-5B4638?style=for-the-badge&logo=codechef&logoColor=white&labelColor=0F0524)](#)
-
-_Replace the `#` links above with your actual profile URLs._
-
-</div>
-
-<br/>
-
----
-
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -378,30 +375,6 @@ _Replace the `#` links above with your actual profile URLs._
 <br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SHARUKH2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0221&title_color=A78BFA&text_color=F8FAFC" width="49%"/>
-
-</div>
-
-<br/>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=SHARUKH2005&theme=algolia&no-frame=true&column=4&margin-w=8&margin-h=8" width="100%"/>
-
-</div>
-
-<br/>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SHARUKH2005&theme=tokyo-night&bg_color=0D0221&color=A78BFA&line=22D3EE&point=F8FAFC&hide_border=true" width="100%"/>
 
 </div>
 
