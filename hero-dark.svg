@@ -1,0 +1,246 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="55%" stop-color="#0F0524"/>
+      <stop offset="100%" stop-color="#0B1020"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="borderShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="50%" stop-color="rgba(167,139,250,0.9)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+      <animate attributeName="x1" values="-20%;120%" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;140%" dur="3.5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowEmerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scanLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#22D3EE" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#A78BFA" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="photoClip">
+      <rect x="60" y="86" width="360" height="438" rx="22"/>
+    </clipPath>
+
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+
+    <filter id="glowFilter" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- base panel -->
+  <rect x="0" y="0" width="1180" height="610" rx="28" fill="url(#bgGrad)"/>
+
+  <!-- floating ambient glows -->
+  <circle cx="120" cy="80" r="220" fill="url(#glowPurple)">
+    <animate attributeName="cy" values="80;110;80" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="520" r="260" fill="url(#glowCyan)">
+    <animate attributeName="cy" values="520;480;520" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="120" r="180" fill="url(#glowEmerald)">
+    <animate attributeName="cx" values="820;870;820" dur="11s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- outer border with shimmer -->
+  <rect x="3" y="3" width="1174" height="604" rx="26" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <rect x="3" y="3" width="1174" height="604" rx="26" fill="none" stroke="url(#borderShimmer)" stroke-width="1.5"/>
+
+  <!-- ================= LEFT: PHOTO PANEL ================= -->
+  <g filter="url(#softShadow)">
+    <rect x="52" y="78" width="376" height="454" rx="26" fill="#0F172A" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
+  </g>
+
+  <g clip-path="url(#photoClip)">
+    <image href="profile.png" x="60" y="86" width="360" height="438" preserveAspectRatio="xMidYMid slice">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="6s" repeatCount="indefinite"/>
+    </image>
+
+    <!-- scanline grid overlay -->
+    <g opacity="0.12" stroke="#22D3EE" stroke-width="1">
+      <line x1="60" y1="126" x2="420" y2="126"/>
+      <line x1="60" y1="206" x2="420" y2="206"/>
+      <line x1="60" y1="286" x2="420" y2="286"/>
+      <line x1="60" y1="366" x2="420" y2="366"/>
+      <line x1="60" y1="446" x2="420" y2="446"/>
+    </g>
+
+    <!-- animated scanning beam -->
+    <rect x="60" y="86" width="360" height="56" fill="url(#scanLine)">
+      <animate attributeName="y" values="86;468;86" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- darken pulse synced with beam -->
+    <rect x="60" y="86" width="360" height="438" fill="#22D3EE" opacity="0.03">
+      <animate attributeName="opacity" values="0.02;0.07;0.02" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="60" y="86" width="360" height="438" rx="22" fill="none" stroke="url(#accentGrad)" stroke-width="2"/>
+
+  <!-- scan status tag -->
+  <g filter="url(#glowFilter)">
+    <rect x="76" y="500" width="150" height="26" rx="13" fill="#0F172A" stroke="#22D3EE" stroke-width="1"/>
+    <circle cx="92" cy="513" r="4" fill="#22D3EE">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="104" y="518" font-family="JetBrains Mono, monospace" font-size="12" fill="#94A3B8">SCANNING PROFILE...</text>
+  </g>
+
+  <!-- companion gif chip, bottom-right of photo -->
+  <g filter="url(#softShadow)">
+    <clipPath id="gifClip"><rect x="336" y="440" width="72" height="72" rx="14"/></clipPath>
+    <rect x="332" y="436" width="80" height="80" rx="16" fill="#0F172A" stroke="url(#accentGrad)" stroke-width="1.6"/>
+    <g clip-path="url(#gifClip)">
+      <image href="scan.gif" x="336" y="440" width="72" height="72" preserveAspectRatio="xMidYMid slice"/>
+    </g>
+  </g>
+
+  <!-- corner brackets, cyber-frame feel -->
+  <g stroke="#A78BFA" stroke-width="2.4" fill="none" opacity="0.9">
+    <path d="M52 100 V80 a2 2 0 0 1 2-2 h20"/>
+    <path d="M428 100 V80 a2 2 0 0 0 -2-2 h-20"/>
+    <path d="M52 500 V520 a2 2 0 0 0 2 2 h20"/>
+    <path d="M428 500 V520 a2 2 0 0 1 -2 2 h-20"/>
+  </g>
+
+  <!-- ================= RIGHT: TERMINAL PANEL ================= -->
+  <g filter="url(#softShadow)">
+    <rect x="452" y="78" width="672" height="454" rx="22" fill="#0F172A" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
+  </g>
+  <rect x="452" y="78" width="672" height="454" rx="22" fill="none" stroke="url(#borderShimmer)" stroke-width="1.2"/>
+
+  <!-- terminal top bar -->
+  <rect x="452" y="78" width="672" height="38" rx="22" fill="#111827"/>
+  <rect x="452" y="98" width="672" height="18" fill="#111827"/>
+  <circle cx="480" cy="97" r="6" fill="#EF4444"/>
+  <circle cx="502" cy="97" r="6" fill="#F59E0B"/>
+  <circle cx="524" cy="97" r="6" fill="#10B981"/>
+  <text x="1090" y="102" font-family="JetBrains Mono, monospace" font-size="12" fill="#64748B" text-anchor="end">sharukh@portfolio ~ %</text>
+
+  <!-- terminal content -->
+  <g font-family="JetBrains Mono, monospace" fill="#F8FAFC">
+    <text x="480" y="152" font-size="20" fill="#94A3B8">Hi 👋</text>
+    <text x="480" y="186" font-size="26" font-weight="700">
+      <tspan fill="#F8FAFC">I'm </tspan><tspan fill="url(#accentGrad)">M A Sharukh Sameer</tspan>
+    </text>
+
+    <text x="480" y="220" font-size="17" fill="#A78BFA">
+      <tspan>AI/ML Engineer in training_</tspan>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.45;0.9;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="480" y="220" font-size="17" fill="#A78BFA" opacity="0">
+      <tspan>Full-Stack Developer_</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.45;0.65;0.7;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+
+    <line x1="480" y1="238" x2="884" y2="238" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+    <g font-size="14.5" fill="#CBD5E1">
+      <text x="480" y="270"><tspan fill="#22D3EE">📍 location</tspan>  Coimbatore, Tamil Nadu, India</text>
+      <text x="480" y="298"><tspan fill="#22D3EE">🎓 education</tspan>  B.Tech AI &amp; Data Science, KGiSL Institute of Tech.</text>
+      <text x="480" y="326"><tspan fill="#22D3EE">🚧 focus</tspan>  AI job-matching platform + resume generator</text>
+      <text x="480" y="354"><tspan fill="#22D3EE">🌐 portfolio</tspan>  your-portfolio-link.dev</text>
+      <text x="480" y="382"><tspan fill="#22D3EE">✉ email</tspan>  sharukhsameer2005@gmail.com</text>
+    </g>
+
+    <line x1="480" y1="398" x2="884" y2="398" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+    <text x="480" y="424" font-size="13" fill="#64748B">SKILLS</text>
+  </g>
+
+  <!-- glowing skill pills -->
+  <g font-family="JetBrains Mono, monospace" font-size="13" fill="#F8FAFC">
+    <g>
+      <rect x="480" y="438" width="72" height="28" rx="14" fill="#1E1B4B" stroke="#7C3AED" stroke-width="1">
+        <animate attributeName="stroke-width" values="1;1.8;1" dur="2.4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="516" y="457" text-anchor="middle">Python</text>
+    </g>
+    <g>
+      <rect x="560" y="438" width="52" height="28" rx="14" fill="#1E1B4B" stroke="#22D3EE" stroke-width="1">
+        <animate attributeName="stroke-width" values="1;1.8;1" dur="2.4s" begin="0.3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="586" y="457" text-anchor="middle">AI/ML</text>
+    </g>
+    <g>
+      <rect x="620" y="438" width="76" height="28" rx="14" fill="#1E1B4B" stroke="#10B981" stroke-width="1">
+        <animate attributeName="stroke-width" values="1;1.8;1" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="658" y="457" text-anchor="middle">Solidity</text>
+    </g>
+    <g>
+      <rect x="704" y="438" width="90" height="28" rx="14" fill="#1E1B4B" stroke="#7C3AED" stroke-width="1">
+        <animate attributeName="stroke-width" values="1;1.8;1" dur="2.4s" begin="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <text x="749" y="457" text-anchor="middle">Blockchain</text>
+    </g>
+    <g>
+      <rect x="480" y="474" width="50" height="28" rx="14" fill="#1E1B4B" stroke="#22D3EE" stroke-width="1">
+        <animate attributeName="stroke-width" values="1;1.8;1" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <text x="505" y="493" text-anchor="middle">SQL</text>
+    </g>
+    <g>
+      <rect x="538" y="474" width="42" height="28" rx="14" fill="#1E1B4B" stroke="#10B981" stroke-width="1">
+        <animate attributeName="stroke-width" values="1;1.8;1" dur="2.4s" begin="1.5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="559" y="493" text-anchor="middle">n8n</text>
+    </g>
+    <g>
+      <rect x="588" y="474" width="122" height="28" rx="14" fill="#1E1B4B" stroke="#7C3AED" stroke-width="1">
+        <animate attributeName="stroke-width" values="1;1.8;1" dur="2.4s" begin="1.8s" repeatCount="indefinite"/>
+      </rect>
+      <text x="649" y="493" text-anchor="middle">Prompt Eng.</text>
+    </g>
+    <g>
+      <rect x="718" y="474" width="46" height="28" rx="14" fill="#1E1B4B" stroke="#22D3EE" stroke-width="1">
+        <animate attributeName="stroke-width" values="1;1.8;1" dur="2.4s" begin="2.1s" repeatCount="indefinite"/>
+      </rect>
+      <text x="741" y="493" text-anchor="middle">Git</text>
+    </g>
+  </g>
+
+  <!-- social row -->
+  <g font-family="JetBrains Mono, monospace" font-size="12.5" fill="#94A3B8">
+    <line x1="480" y1="514" x2="884" y2="514" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="480" y="538"><tspan fill="#22D3EE">GitHub</tspan> /SHARUKH2005    <tspan fill="#22D3EE">LinkedIn</tspan> /sharukhsameer</text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="480" y="558" width="9" height="16" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="500" y="571" font-family="JetBrains Mono, monospace" font-size="13" fill="#64748B">building the next thing_</text>
+</svg>
