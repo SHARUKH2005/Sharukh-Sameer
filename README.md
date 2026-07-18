@@ -91,7 +91,7 @@ and <b>Full-Stack Engineering</b>.
 <pre><code><b>👤 Name </b>         : M A Sharukh Sameer
 <b>💼 Role</b>         : AI/ML Engineer in Training • Full-Stack + Web3 Builder
 <b>🎓 Degree</b>       : B.Tech Artificial Intelligence & Data Science (2024–2028)
-<b>🏫 University</b>   : KGiSL Institute of Technology, Anna University
+<b>🏫 University</b>   : KGiSL Institute of Technology
 <b>📍 Location</b>     : Coimbatore, Tamil Nadu, India
 <b>🚀 Startup</b>      : Founder & CEO • MindZen AI
 
@@ -369,7 +369,7 @@ Built an AI-based solution in a team environment under hackathon constraints, de
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SHARUKH2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0221&title_color=A78BFA&icon_color=22D3EE&text_color=F8FAFC&count_private=true" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SHARUKH2005&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" width="49%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=SHARUKH2005&theme=tokyonight&hide_border=true&background=0D0221&ring=7C3AED&fire=22D3EE&currStreakLabel=A78BFA" width="49%"/>
 
 <br/>
@@ -382,17 +382,11 @@ Built an AI-based solution in a team environment under hackathon constraints, de
 
 ---
 
-## 🐍 Contribution Snake
+## ACTIVITY
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/SHARUKH2005/SHARUKH2005/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
-</div>
-
-> _Snake animation requires the `platane/snk` GitHub Action set up on this repo to generate the SVG above._
-
-<br/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SHARUKH2005/Sharukh-Sameer/output/github-contribution-grid-snake-dark.svg" alt="Snake animation">
+</p>
 
 ---
 
@@ -422,25 +416,8 @@ open_to:
 
 ---
 
-## 📬 Connect With Me
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/Gmail-sharukhsameer2005%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F0524)](mailto:sharukhsameer2005@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sharukhsameer-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F0524)](https://www.linkedin.com/in/sharukhsameer)
-[![GitHub](https://img.shields.io/badge/GitHub-SHARUKH2005-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=0F0524)](https://github.com/SHARUKH2005)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-5B21B6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0F0524)](#)
-
-</div>
-
-<br/>
-
----
-
 <div align="center">
 
 *"Discipline today. Success tomorrow."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:5B21B6,100:0F0524&height=150&section=footer" width="100%"/>
 
 </div>
