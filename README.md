@@ -32,6 +32,35 @@ Computer Vision, Automation and Full Stack Development.
 
 </div>
 ---
+<div align="center">
+
+<img src="mindzen-logo.png" width="110" alt="MindZen AI Logo">
+
+<br><br>
+
+<h2>
+<img src="founder.png" width="65" alt="Sharukh Sameer" align="center">
+&nbsp;
+Founder & CEO • MindZen AI
+</h2>
+
+<p>
+<i>
+"Most people fear failure.<br>
+Entrepreneurs use it as fuel."
+</i>
+</p>
+
+<h4>
+Building Intelligence Beyond Now
+</h4>
+
+<p>
+Creating AI-powered products that transform ideas into intelligent solutions through
+Machine Learning, Automation, Computer Vision, and Full-Stack Engineering.
+</p>
+
+</div>
 
 ## 🧠 About Me
 
