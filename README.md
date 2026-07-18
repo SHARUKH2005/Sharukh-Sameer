@@ -2,35 +2,35 @@
   <img src="hero.gif" alt="Sharukh Sameer Hero Animation" width="100%">
 </div>
 
-<div align="center">
+<h1 align="center">👋 Hi, I'm Sharukh Sameer</h1>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0524,50:5B21B6,100:22D3EE&height=220&section=header&text=M%20A%20SHARUKH%20SAMEER&fontSize=48&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%E2%80%A2%20Full%20Stack%20%2B%20Blockchain%20Builder&descAlignY=58&descSize=18" width="100%"/>
+<h3 align="center">
+AI Engineer • Python Developer • Machine Learning Enthusiast
+</h3>
 
-<br/>
+<p align="center">
+Building intelligent AI-powered applications with Machine Learning,
+Computer Vision, Automation and Full Stack Development.
+</p>
 
-<br/><br/>
+<br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2600&pause=900&color=A78BFA&center=true&vCenter=true&width=680&lines=B.Tech+AI+%26+Data+Science+Student;Building+AI-powered+products;Exploring+Blockchain+%26+Web3;Prompt+Engineering+%2B+Automation+Enthusiast)](https://git.io/typing-svg)
+<p align="center">
+<a href="YOUR_PORTFOLIO_LINK">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white">
+</a>
 
-<br/>
+<a href="https://www.linkedin.com/in/sharukhsameer">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
 
-![Academic](https://img.shields.io/badge/B.Tech-AI%20%26%20Data%20Science-5B21B6?style=for-the-badge&labelColor=0F0524)
-![Batch](https://img.shields.io/badge/Batch-2024--2028-7C3AED?style=for-the-badge&labelColor=0F0524)
-![Location](https://img.shields.io/badge/📍-Coimbatore,%20India-22D3EE?style=for-the-badge&labelColor=0F0524)
+<a href="mailto:sharukhsameer2005@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-5B21B6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0F0524)](#)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F0524)](https://www.linkedin.com/in/sharukhsameer)
-[![Email](https://img.shields.io/badge/Email-Message%20Me-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F0524)](mailto:sharukhsameer2005@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=0F0524)](https://github.com/SHARUKH2005)
-
-![Profile Views](https://komarev.com/ghpvc/?username=SHARUKH2005&style=for-the-badge&color=7c3aed&labelColor=0F0524)
-![Followers](https://img.shields.io/github/followers/SHARUKH2005?style=for-the-badge&color=8B5CF6&labelColor=0F0524)
-![Stars](https://img.shields.io/github/stars/SHARUKH2005?style=for-the-badge&color=22D3EE&labelColor=0F0524)
+</p>
 
 </div>
-
-<br/>
-
 ---
 
 ## 🧠 About Me
